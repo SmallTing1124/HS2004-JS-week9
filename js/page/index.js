@@ -129,7 +129,6 @@ function renderFilterProduct(event) {
 
 // 渲染 購物車列表
 function renderCarts(data) {
-    console.log(data)
     if (!data.carts.length) {
         emptyCartMsg.style.display = 'block';
         shoppingCartTable.style.display = 'none';
